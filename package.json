@@ -1,0 +1,24 @@
+{
+  "name": "org-tree-helper",
+  "version": "1.0.0",
+  "description": "一个用于生成组织架构图布局的工具函数",
+  "main": "dist/org-tree-helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactjser/org-tree-helper.git"
+  },
+  "keywords": [
+    "org",
+    "org-chart",
+    "org-tree"
+  ],
+  "author": "reactjser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reactjser/org-tree-helper/issues"
+  },
+  "homepage": "https://github.com/reactjser/org-tree-helper#readme"
+}

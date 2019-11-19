@@ -36,9 +36,14 @@ const treeData = {
 
 // 节点之间左右和上下的间距，默认为[20, 20]
 const spacing = [20, 40];
+// 是否水平，默认为false
+const horizontal = true;
 
 // 返回线条信息、节点信息、布局边界信息
-const { pathData, nodesData, layoutExtents } = orgTreeHelper(treeData, spacing);
+const { pathData, nodesData, layoutExtents } = orgTreeHelper(treeData, {
+  spacing,
+  horizontal
+});
 
 // 使用canvas/svg渲染
 // render your chart here

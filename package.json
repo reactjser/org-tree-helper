@@ -1,6 +1,6 @@
 {
   "name": "org-tree-helper",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "一个用于生成组织架构图布局的工具函数",
   "main": "dist/org-tree-helper.js",
   "scripts": {
